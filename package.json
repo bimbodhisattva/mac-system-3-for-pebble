@@ -1,0 +1,40 @@
+{
+  "name": "Mac System 3",
+  "author": "bimbodhisattva",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Mac System 3",
+    "uuid": "7e59d76a-12a6-4a4d-b2b4-33ceb9a4e7ec",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+    "media": [
+      {
+        "type":"font",
+        "name":"FONT_CHICAGO_34",
+        "file":"Chicago.ttf",
+        "compatibility": "2.7"
+      },
+      {
+        "type":"bitmap",
+        "name":"IMAGE_BACKGROUND",
+        "file":"background.png"
+      }
+    ]
+    }
+  }
+}
